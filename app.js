@@ -30,3 +30,23 @@ let game = {
 player.playCricket();
 
 // this keyword we can use for calling local object
+
+// ==================================================
+
+// writing functions Arrow function and normal function and annonymous function
+
+const cars = {
+  brand: "Audi",
+  price: "200000$",
+  myCar: function () {
+    console.log(`I have ${this.brand} and its cost ${this.price}`);
+  },
+};
+
+cars.myCar();
+
+const myHome = (HomeName) => {
+  console.log(`My sweet ${HomeName} home`);
+};
+
+myHome("DreamLand");
